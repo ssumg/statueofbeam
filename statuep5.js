@@ -13,7 +13,7 @@ function draw() {
   time += 1;
   background(40, 40, 90);
   image(statue, 0, 10);
-  if(time % 124 == 0)
+  if(time % 224 == 0)
     background(200, 200, 0);
 }
 function mouseClicked(){
