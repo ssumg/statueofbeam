@@ -15,11 +15,12 @@ function draw() {
   image(statue, 0, 10);
   if(time % 224 == 0)
     background(200, 200, 0);
-  function mouseDragged(){
+  if(mouseIsPressed == TRUE){
   noStroke();
   fill(255, 0, 0);
   ellipse(345,250, 15, 15);
   ellipse(365, 250, 15, 15);
+  
 
   fill(255);
   ellipse(mouseX, mouseY, 60, 60);
@@ -39,9 +40,10 @@ function draw() {
   
   noStroke();
   fill(120);
-  for(var i = 0; i < 5; i++)
+  for(var i = 0; i < 5; i++){
     ellipse(random(mouseX-90, mouseX+60), 850, random(50), random(50));
   }
+}
 }
 
 
