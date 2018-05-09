@@ -22,7 +22,7 @@ function mouseClicked(){
   ellipse(345,250, 15, 15);
   ellipse(365, 250, 15, 15);
 }
-function mouseDragged(){
+function mousePressed(){
   fill(255);
   ellipse(mouseX, mouseY, 60, 60);
   if(time % 4 == 0 || time%3 ==0)
