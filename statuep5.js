@@ -39,6 +39,6 @@ function mouseDragged(){
   
   noStroke();
   fill(120);
-  for(int i = 0; i < 5; i++)
+  for(var i = 0; i < 5; i++)
     ellipse(random(mouseX-90, mouseX+60), 850, random(50), random(50));
   }
