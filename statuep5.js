@@ -16,13 +16,13 @@ function draw() {
   if(time % 224 == 0)
     background(200, 200, 0);
 }
-function mouseClicked(){
+
+function mousePressed(){
   noStroke();
   fill(255, 0, 0);
   ellipse(345,250, 15, 15);
   ellipse(365, 250, 15, 15);
-}
-function mousePressed(){
+
   fill(255);
   ellipse(mouseX, mouseY, 60, 60);
   if(time % 4 == 0 || time%3 ==0)
