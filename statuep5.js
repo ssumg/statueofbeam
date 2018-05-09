@@ -17,7 +17,7 @@ function draw() {
     background(200, 200, 0);
 }
 
-function mousePressed(){
+function mouseDragged(){
   noStroke();
   fill(255, 0, 0);
   ellipse(345,250, 15, 15);
