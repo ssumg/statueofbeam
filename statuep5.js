@@ -5,7 +5,7 @@ function setup() {
   createCanvas(690, 900);
   background(40, 40, 90);
   statue = loadImage('assets/statue1.png');
-  fire1 = loadImage("assets/fire1.png');
+  fire1 = loadImage('assets/fire1.png');
   fire2 = loadImage('assets/fire2.png');
 }
 
