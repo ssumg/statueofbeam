@@ -14,6 +14,8 @@ function draw() {
   image(statue, 0, 10);
   if(time % 224 == 0)
     background(200, 200, 0);
+  else
+    background(60, 200, 200);
   
   noStroke();
     
