@@ -11,17 +11,15 @@ function setup() {
 
 function draw() {
   time += 1;
-  background(40, 40, 90);
   image(statue, 0, 10);
   if(time % 224 == 0)
     background(200, 200, 0);
   
-  if(mouseIsPressed == TRUE){
   noStroke();
     
-  fill(255, 0, 0);
+  /*fill(255, 0, 0);
   ellipse(345,250, 15, 15);
-  ellipse(365, 250, 15, 15);
+  ellipse(365, 250, 15, 15);*/
   
 
   fill(255);
