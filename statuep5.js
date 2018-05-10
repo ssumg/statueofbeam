@@ -21,9 +21,7 @@ function draw() {
   ellipse(345,250, 15, 15);
   ellipse(365, 250, 15, 15);*/
   
-
-  fill(255);
-  ellipse(mouseX, mouseY, 60, 60);
+if(mouseIsPressed){
   if(time % 4 == 0 || time%3 ==0)
     image(fire2, 0, 0);
   else
@@ -43,7 +41,8 @@ function draw() {
   for(var i = 0; i < 5; i++){
     ellipse(random(mouseX-90, mouseX+60), 850, random(50), random(50));
   }
+  }
 }
-}
+
 
 
